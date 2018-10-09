@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<title>Criminal Law</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+
+
+.top-right {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    font-family: "Copperplate Gothic";
+    font-size: 40px;
+    color: white;
+    background-color: #CD853F;
+
+}
+.top-righ {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    font-family: "Times New Roman";
+    font-size: 30px;
+    color: white;
+    opacity:0.6;
+}
+.navbar {
+  width: 100%;
+  background-color:#2F4F4F;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 17px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+.topnav-right {
+  float: right;
+}
+.active {
+  background-color: #CD853F;
+}
+.right {
+float: left;
+padding: 0 20px 20px 0;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+h2
+{
+font-family:Segoe Print;
+color:black;
+font-size:40px;
+}
+p
+{
+color:black;
+font-size:20px;
+}
+h3
+{
+font-family:Segoe Print;
+color:black;
+}
+</style>
+<body background-image="law.png">
+<!-- Load an icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar">
+  <a class="active" href="main.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="main.html"><i class="fa fa-fw fa-user"></i> Login</a>
+  <a href="#"><i class="fa fa-fw fa-book"></i> Carrer Tree</a>
+  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+
+<div class="topnav-right">
+    <a href="#search"><i class="fa fa-fw fa-search"></i>Search</a>
+
+  </div>
+</div> 
+<h2 class="w3-center">Career Guidance</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="b4.jpg" style="width:100%">
+  <img class="mySlides" src="b3.jpg" style="width:100%">
+  <img class="mySlides" src="b2.jpg" style="width:100%">
+  <img class="mySlides" src="b5.jpg" style="width:100%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<p><br>
+<h2>What is Career Guidance</h2><br><hr>
+<p>
+Career guidance is very important for choosing among many careers that the student may be skilled at or interested in. Career guidance provides advice to students on the expected outlook and career opportunities that are in offer in the days to come. Following points provide an insight on the importance of career guidance to students.</p><hr>
+<p>Importance Of Choosing Career Guidance Before Deciding A Career Option:<br><hr>
+<p>>>Before finalizing a career, if candidates can consult for career guidance, they can get <p>complete information about the career path that lies ahead. They can then choose a suitable career easily according to their interest.<br>
+<p>>>Candidates would be able to keep the advice gained through career guidance while choosing the career so that they can become eligible for the jobs available in that field and will also be able to make an exact fit for the position.<br>
+<p>>>Through career guidance, candidates would be able to know whether the education provided is in keeping with the flexibility of other activities that they have to do. For example, if there are short term or weekend courses, working professionals can opt for them easily and continue working.<br>
+<p>>>By taking inputs from career guidance, candidates will be able to allocate their costs into course programs and certifications and see to it that they are properly getting ready for the eligible position. Cost analysis and investment is an important aspect of developing a career.<br>
+<p>>>Through career guidance, students would be able to choose the best schools and colleges that are providing courses suitable for that career. Through the top graded colleges, candidates would be able to get exposure to the best pedagogy and will be able to get in touch with the crème of the country.<br>
+<p>>>Career guidance provides a future direction to the candidate by giving them an outlook for the upcoming careers that are about to boom and provide mass employment.<br></p>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
